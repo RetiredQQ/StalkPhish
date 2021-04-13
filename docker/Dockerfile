@@ -6,9 +6,10 @@ ENV INITSYSTEM=on
 
 # install packages
 RUN apk --no-cache add --update \
-py-lxml \
+py3-lxml \
 git \
 python3 \
+py3-pip
 openrc \
 sqlite \
 supervisor \
